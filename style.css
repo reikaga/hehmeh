@@ -1,0 +1,155 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Стили для header */
+header 
+{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px 20px;
+    background-color: #d3d0f1;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+#logop
+{
+    width: 300px;
+    height: 120px;
+    cursor: pointer;
+}
+
+#homework-list 
+{
+    display: flex;
+    align-items: center;
+    margin-top: -15px ;
+    padding: 50px;
+}
+
+.block, #hw1 
+{
+    margin:20px  0 0 40px;
+    
+}
+
+#hw1 
+{
+    color:black;
+    font-weight: bold;
+    background-color: white;
+    border-color: #7974b4;
+    border-width: 3px;
+    border-radius: 10px;
+    width: 420px;
+    text-align: left;
+}
+
+.homework
+{
+    margin-right: 50px;
+    cursor: pointer;
+    color:black;
+    transition: color 0.3s;
+    font-size: 18px;
+}
+
+#hw1:hover, .homework:hover
+{
+    color:#790469
+}
+.arrow
+{
+    margin-top:25px;
+    font-size:20px;
+}
+
+.success,.warning 
+{
+    background-color:#7974b4;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px 0;
+    max-width: 700px; /* Максимальная ширина */
+    max-height: 100px; /* Максимальная высота */
+}
+
+.html
+{
+background-color:#b92142 ;
+}
+
+.css
+{
+background-color: #6721a0
+}
+
+.js
+{
+background-color: #23259e
+}
+
+.html, .css, .js
+{
+    color: rgb(255, 255, 255);
+    width: 55px;
+    text-align: center;
+    padding: 10px 10px;
+    margin: -5px 35px -5px -10px;
+    border-radius: 17px;
+    display: inline-block;
+}
+
+.counter
+{
+    display: flex;
+    position: relative;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#decrem, #increm
+{
+    margin: 0;
+    border: 2px solid #7974b4;
+    background-color: white;
+    color:black;
+    position: absolute;
+}
+
+#decrem
+{
+    margin-left: -600px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#increm
+{
+    margin-left: -400px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+#decrem:hover, #increm:hover
+{
+    color: #790469;
+    background-color:#c2bef0
+}
+
+#counter_number
+{
+    margin-top: 5px;
+    margin-left: -500px;
+    user-select: none;
+}
+
+
