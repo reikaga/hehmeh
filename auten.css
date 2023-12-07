@@ -47,6 +47,7 @@ body {
     margin: 30px 0;
     max-width: 310px;
     border-bottom: 2px solid #fff;
+    user-select: none;
 }
 
 .inputbox label {
