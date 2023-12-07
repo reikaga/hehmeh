@@ -13,6 +13,7 @@ header
     background-color: #d3d0f1;
     text-decoration: underline;
     font-weight: bold;
+    user-select: none;
 }
 
 #logop
@@ -20,6 +21,7 @@ header
     width: 300px;
     height: 120px;
     cursor: pointer;
+    user-select: none;
 }
 
 #homework-list 
@@ -65,6 +67,7 @@ header
 {
     margin-top:25px;
     font-size:20px;
+    user-select: none;
 }
 
 .success,.warning 
@@ -76,6 +79,7 @@ header
     margin: 5px 0;
     max-width: 700px; /* Максимальная ширина */
     max-height: 100px; /* Максимальная высота */
+    user-select: none;
 }
 
 .html
@@ -102,6 +106,7 @@ background-color: #23259e
     margin: -5px 35px -5px -10px;
     border-radius: 17px;
     display: inline-block;
+    user-select: none;
 }
 
 .counter
