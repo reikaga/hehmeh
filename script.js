@@ -177,7 +177,7 @@ const homework4Button = document.getElementById("hw4_head");
 // Добавьте обработчик события клика на кнопке Homework_2
 homework4Button.addEventListener("click", function () {
     // Перенаправьте пользователя на страницу авторизации
-    window.location.href = "manager1.html";
+    window.location.href = "manager.html";
 });
 });//
 // Добавьте логику для страницы авторизации и перенаправления на "Вы успешно авторизовались"
